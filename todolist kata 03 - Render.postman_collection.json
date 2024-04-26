@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "930a28fb-0496-45c7-bbe5-5afaf2c38e93",
+		"name": "todolist kata 03 - Render",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33232213"
+	},
+	"item": [
+		{
+			"name": "get all todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hextodolistkata-03.onrender.com/todos",
+					"protocol": "https",
+					"host": [
+						"hextodolistkata-03",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add a todo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Learn Node.js\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hextodolistkata-03.onrender.com/todos",
+					"protocol": "https",
+					"host": [
+						"hextodolistkata-03",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete all todos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://hextodolistkata-03.onrender.com/todos",
+					"protocol": "https",
+					"host": [
+						"hextodolistkata-03",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete a todo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://hextodolistkata-03.onrender.com/todos/2faf689c-bc89-42ad-99bd-ffc773f90606",
+					"protocol": "https",
+					"host": [
+						"hextodolistkata-03",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"todos",
+						"2faf689c-bc89-42ad-99bd-ffc773f90606"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update a todo",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"updated title\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hextodolistkata-03.onrender.com/todos/dc3065cc-d084-4d05-88c7-3b3d170d54a0",
+					"protocol": "https",
+					"host": [
+						"hextodolistkata-03",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"todos",
+						"dc3065cc-d084-4d05-88c7-3b3d170d54a0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
