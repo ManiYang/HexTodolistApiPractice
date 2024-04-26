@@ -10,5 +10,8 @@
   "license": "ISC",
   "engines": {
     "node": "21.x"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
   }
 }
