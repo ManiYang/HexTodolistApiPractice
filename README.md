@@ -4,6 +4,7 @@
 
 1. 初始設定
     + `npm init`, install `uuid`
+    + add `"engines": {"node": "21.x"},` in `package.json`
     + create GitHub repo & `.gitignore`
 2. set up HTTP server
     + `http.createServer(httpListener).listen(httpListenPort)`
