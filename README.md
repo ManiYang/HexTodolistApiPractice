@@ -1,5 +1,3 @@
-# HexTodolistKata-03
-
 ### 練習步驟
 
 1. 初始設定
